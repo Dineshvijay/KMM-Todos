@@ -5,7 +5,7 @@ Sample Todos app using Kotlin Multiplatform
 
 ## Flow
 <p align="center">
-  <img src="./assets/demo-image.png" width="604" height="317" title="hover text">
+  <img src="./assets/Todos.png" width="604" height="317" title="hover text">
 </p>
 
 #### Plugins
