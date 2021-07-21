@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/app_nav"
+    app:startDestination="@id/todosFragment">
+
+    <fragment
+        android:id="@+id/todosFragment"
+        android:name="com.dineshvijay.todos.ui.TodosFragment"
+        android:label="fragment_todos"
+        tools:layout="@layout/fragment_todos">
+        <action
+            android:id="@+id/action_todosFragment_to_newTodosFragment"
+            app:destination="@id/newTodosFragment" />
+        <action
+            android:id="@+id/action_todosFragment_to_todosDetailFragment"
+            app:destination="@id/todosDetailFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/newTodosFragment"
+        android:name="com.dineshvijay.todos.ui.NewTodosFragment"
+        android:label="fragment_new_todos"
+        tools:layout="@layout/fragment_new_todos" />
+    <fragment
+        tools:layout="@layout/fragment_todos_detail"
+        android:id="@+id/todosDetailFragment"
+        android:name="com.dineshvijay.todos.ui.TodosDetailFragment"
+        android:label="TodosDetailFragment" >
+        <argument
+            android:name="todos"
+            app:argType="com.dineshvijay.shared.domain.entities.Todos"
+            app:nullable="false" />
+    </fragment>
+</navigation>

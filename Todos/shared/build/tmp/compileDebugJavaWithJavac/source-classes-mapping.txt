@@ -1,0 +1,2 @@
+com/dineshvijay/shared/BuildConfig.java
+ com.dineshvijay.shared.BuildConfig

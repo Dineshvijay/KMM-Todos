@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Todos</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title">Title</string>
+    <string name="completed">Completed</string>
+    <string name="placholder">Enter the todos </string>
+    <string name="done">Done</string>
+    <string name="todosDetail">Todos Details</string>
+    <string name="update">Update</string>
+</resources>
