@@ -23,4 +23,3 @@ Inside Android studio terminal and run the following command
 ```sh
 ./gradlew debugFatFramework 
 ```
-# KMM-Todos
