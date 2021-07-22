@@ -21,5 +21,5 @@ Inside Android studio terminal and run the following command
 ./gradlew debugFatFramework 
 ```
 ```sh
-./gradlew debugFatFramework 
+./gradlew releaseFatFramework 
 ```
