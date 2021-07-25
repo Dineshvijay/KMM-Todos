@@ -8,7 +8,7 @@
     <fragment
         android:id="@+id/todosFragment"
         android:name="com.dineshvijay.todos.ui.TodosFragment"
-        android:label="fragment_todos"
+        android:label="Todos"
         tools:layout="@layout/fragment_todos">
         <action
             android:id="@+id/action_todosFragment_to_newTodosFragment"
@@ -20,13 +20,13 @@
     <fragment
         android:id="@+id/newTodosFragment"
         android:name="com.dineshvijay.todos.ui.NewTodosFragment"
-        android:label="fragment_new_todos"
+        android:label="New Todo"
         tools:layout="@layout/fragment_new_todos" />
     <fragment
         tools:layout="@layout/fragment_todos_detail"
         android:id="@+id/todosDetailFragment"
         android:name="com.dineshvijay.todos.ui.TodosDetailFragment"
-        android:label="TodosDetailFragment" >
+        android:label="Detail" >
         <argument
             android:name="todos"
             app:argType="com.dineshvijay.shared.domain.entities.Todos"

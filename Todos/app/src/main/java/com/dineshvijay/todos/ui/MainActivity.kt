@@ -6,6 +6,7 @@ import androidx.navigation.NavController
 import androidx.navigation.Navigation
 import androidx.navigation.findNavController
 import androidx.navigation.fragment.NavHostFragment
+import androidx.navigation.ui.setupActionBarWithNavController
 import com.dineshvijay.todos.R
 import com.dineshvijay.todos.databinding.ActivityMainBinding
 
@@ -19,6 +20,7 @@ class MainActivity : AppCompatActivity() {
         setContentView(viewBinding.root)
         val navHostFragment = supportFragmentManager.findFragmentById(R.id.fragmentContainerView) as NavHostFragment
         navController = navHostFragment.navController
+        setupActionBarWithNavController(navController)
         initFABAction()
     }
 
@@ -26,5 +28,10 @@ class MainActivity : AppCompatActivity() {
         viewBinding.floatingActionButton.setOnClickListener {
             navController.navigate(R.id.action_todosFragment_to_newTodosFragment)
         }
+    }
+
+    override fun onSupportNavigateUp(): Boolean {
+        navController.navigateUp()
+        return super.onSupportNavigateUp()
     }
 }

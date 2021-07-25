@@ -4,8 +4,8 @@
 4
 5    <uses-sdk
 6        android:minSdkVersion="26"
-6-->/Users/dinesh/Documents/workspace/repo/Todos/shared/src/androidMain/AndroidManifest.xml
+6-->/Users/dinesh/Documents/workspace/repo/github/KMM-Todos/Todos/shared/src/androidMain/AndroidManifest.xml
 7        android:targetSdkVersion="30" />
-7-->/Users/dinesh/Documents/workspace/repo/Todos/shared/src/androidMain/AndroidManifest.xml
+7-->/Users/dinesh/Documents/workspace/repo/github/KMM-Todos/Todos/shared/src/androidMain/AndroidManifest.xml
 8
 9</manifest>
